@@ -1,0 +1,18 @@
+{
+  "name": "planets-fact-site",
+  "version": "1.0.0",
+  "description": "![Design preview for the Planets fact site coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "parcel": "^2.8.3"
+  },
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
