@@ -1,0 +1,178 @@
+:root {
+  --text-color: #fff;
+  --bg-color: #070724;
+  --hover-color: #38384f;
+  --line-color: #838391;
+  --mercury: #419ebb;
+  --main-font: "Antonio", sans-serif;
+  --secondary-font: "League Spartan", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--main-font);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav {
+  height: 8.5rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--line-color);
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.5rem;
+  display: flex;
+}
+
+.logo {
+  font-size: 2.8rem;
+}
+
+.nav-list {
+  letter-spacing: .1rem;
+  gap: 3rem;
+  font-size: 1.1rem;
+  display: flex;
+}
+
+.nav-list li {
+  cursor: pointer;
+}
+
+.hero {
+  grid-gap: 1rem;
+  height: 100%;
+  grid-template-rows: 3fr 1fr;
+  grid-template-columns: 2fr 1fr;
+  padding: 0 15rem;
+  display: grid;
+}
+
+.img-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.planet-img {
+  width: 29.8rem;
+  height: 29.8rem;
+}
+
+.planet-info {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 2rem;
+  display: flex;
+}
+
+.planet-title {
+  letter-spacing: -.15rem;
+  font-size: 8rem;
+}
+
+.planet-desc {
+  font-family: var(--secondary-font);
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+
+.planet-source {
+  color: var(--line-color);
+  font-family: var(--secondary-font);
+  font-size: 1.4rem;
+}
+
+.planet-source a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.tabs {
+  width: 100%;
+  flex-direction: column;
+  gap: 1.6rem;
+  display: flex;
+}
+
+.tab {
+  width: 100%;
+  height: 4.8rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: var(--secondary-font);
+  letter-spacing: .26rem;
+  text-transform: uppercase;
+  border: 1px solid var(--line-color);
+  cursor: pointer;
+  align-items: center;
+  gap: 2.8rem;
+  display: flex;
+}
+
+.tab:hover {
+  background-color: var(--hover-color);
+}
+
+.tab-num {
+  color: var(--line-color);
+  margin-left: 1rem;
+}
+
+.box-info {
+  grid-gap: 3rem;
+  grid-column: span 2;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3rem;
+  display: grid;
+}
+
+.box {
+  border: 1px solid var(--line-color);
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 2rem;
+  display: flex;
+}
+
+.box-text {
+  font-family: var(--secondary-font);
+  text-transform: uppercase;
+  color: var(--line-color);
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.box-value {
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+
+/*# sourceMappingURL=index.c92073ef.css.map */
