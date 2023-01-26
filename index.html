@@ -4,26 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Planets fact site</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=League+Spartan:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
   </head>
   <body>
-    <header class="main-header">
-      <nav class="main-nav">
-        <h1>Planets</h1>
-        <ul class="nav-list">
-          <li>Mercury</li>
-          <li>Venus</li>
-          <li>Earth</li>
-          <li>Mars</li>
-          <li>Jupiter</li>
-          <li>Saturn</li>
-          <li>Uranus</li>
-          <li>Neptune</li>
-        </ul>
-      </nav>
-    </header>
-    <main class="main">
-      <div class="main-img">
-        <img src="assets/planet-mercury.svg" alt="Planet" />
+    <nav class="nav">
+      <h1 class="logo"><a href="#">The planets</a></h1>
+      <ul class="nav-list">
+        <li>Mercury</li>
+        <li>Venus</li>
+        <li>Earth</li>
+        <li>Mars</li>
+        <li>Jupiter</li>
+        <li>Saturn</li>
+        <li>Uranus</li>
+        <li>Neptune</li>
+      </ul>
+    </nav>
+    <main class="hero">
+      <div class="img-container">
+        <img class="planet-img" src="assets/planet-mercury.svg" alt="Planet" />
       </div>
       <div class="planet-info">
         <h2 class="planet-title">Mercury</h2>
@@ -40,12 +47,14 @@
           ></span
         >
         <div class="tabs">
-          <div class="tab">01 Overview</div>
-          <div class="tab">02 Internal Structure</div>
-          <div class="tab">03 Surface Geology</div>
+          <div class="tab"><span class="tab-num">01</span> Overview</div>
+          <div class="tab">
+            <span class="tab-num">02</span> Internal Structure
+          </div>
+          <div class="tab"><span class="tab-num">03</span> Surface Geology</div>
         </div>
       </div>
-      <section class="additional-info">
+      <section class="box-info">
         <div class="box">
           <span class="box-text">Rotation Time</span>
           <span class="box-value">58.6 Days</span>
