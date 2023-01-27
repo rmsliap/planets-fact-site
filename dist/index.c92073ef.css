@@ -139,6 +139,10 @@ ul {
   background-color: var(--hover-color);
 }
 
+.active {
+  background-color: var(--mercury);
+}
+
 .tab-num {
   color: var(--line-color);
   margin-left: 1rem;
