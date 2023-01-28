@@ -1,7 +1,8 @@
 import { updateDesc } from "./updateDesc.js";
 
+const tabs = document.querySelectorAll(".tab");
+
 function changeActive(planet) {
-  const tabs = document.querySelectorAll(".tab");
   tabs.forEach((tab) => {
     tab.addEventListener("click", function (e) {
       tabs.forEach((tab) => {
@@ -14,4 +15,13 @@ function changeActive(planet) {
   });
 }
 
-export { changeActive };
+function firstTabActive() {
+  tabs.forEach((tab) => {
+    tab.classList.remove("active");
+  });
+  tabs[0].classList.add("active");
+  const geologyImg = document.querySelector(".geology-img");
+  geologyImg.style.display = "none";
+}
+
+export { changeActive, firstTabActive };
