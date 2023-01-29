@@ -2,7 +2,7 @@ import { updateDesc } from "./updateDesc.js";
 
 const tabs = document.querySelectorAll(".tab");
 
-function changeActive(planet) {
+function changeActive(planet, color) {
   tabs.forEach((tab) => {
     tab.addEventListener("click", function (e) {
       tabs.forEach((tab) => {
@@ -15,7 +15,7 @@ function changeActive(planet) {
   });
 }
 
-function firstTabActive() {
+function firstTabActive(color) {
   tabs.forEach((tab) => {
     tab.classList.remove("active");
   });
