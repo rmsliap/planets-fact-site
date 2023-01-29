@@ -2,4 +2,4 @@
 
 ![Design preview for the Planets fact site coding challenge](./preview.jpg)
 
-WIP
+Planets fact site project from Frontend Mentor template. Built with vanilla HTML, CSS, JS.

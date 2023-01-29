@@ -154,6 +154,10 @@ ul {
   cursor: pointer;
 }
 
+.active {
+  background-color: var(--mercury);
+}
+
 .tab:hover {
   background-color: var(--hover-color);
 }
