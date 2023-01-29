@@ -64,6 +64,13 @@ ul {
   cursor: pointer;
 }
 
+.hb-icon {
+  width: 2.4rem;
+  height: 1.7rem;
+  display: none;
+  cursor: pointer;
+}
+
 .hero {
   display: grid;
   grid-template-columns: 2fr 1fr;

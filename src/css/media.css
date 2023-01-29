@@ -25,6 +25,76 @@
   }
 
   .box-value {
-    font-size: 2rem;
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav {
+    flex-direction: row;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .hero {
+    position: relative;
+  }
+
+  .hb-icon {
+    display: block;
+  }
+
+  .img-container {
+    padding: 12.5rem 10rem;
+  }
+
+  .tabs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: row;
+    border-bottom: 1px solid var(--line-color);
+  }
+
+  .tab {
+    width: 100%;
+    height: 4.8rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: var(--secondary-font);
+    letter-spacing: 0.26rem;
+    text-transform: uppercase;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .active {
+    background: none;
+    border-bottom: 3px solid var(--mercury);
+  }
+
+  .tab-num {
+    display: none;
+  }
+
+  .planet-text {
+    align-items: center;
+  }
+
+  .box-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .box {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 }

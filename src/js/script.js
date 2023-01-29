@@ -11,11 +11,8 @@ navLis.forEach((navLi) => {
     const [planet] = data.filter(
       (el) => e.target.textContent.toLowerCase() === el.name.toLowerCase()
     );
-    const [{ color }] = colors.filter(
-      (el) => e.target.textContent.toLowerCase() === el.planet.toLowerCase()
-    );
     renderInfo(planet);
-    firstTabActive(color);
-    changeActive(planet, color);
+    firstTabActive();
+    changeActive(planet);
   });
 });
