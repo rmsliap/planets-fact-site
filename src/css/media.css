@@ -1,0 +1,30 @@
+@media (max-width: 900px) {
+  :root {
+    font-size: 50%;
+  }
+
+  .nav {
+    flex-direction: column;
+    gap: 3rem;
+    height: 16rem;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5rem;
+  }
+
+  .img-container {
+    padding: 10rem;
+  }
+
+  .planet-info {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .box-value {
+    font-size: 2rem;
+  }
+}
