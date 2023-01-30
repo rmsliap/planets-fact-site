@@ -30,6 +30,10 @@
 }
 
 @media (max-width: 600px) {
+  :root {
+    font-size: 52.5%;
+  }
+
   body {
     position: relative;
     height: auto;
