@@ -1,4 +1,5 @@
-import data from "../data.json" assert { type: "json" };
+// import data from "../data.json" assert { type: "json" };
+import { data } from "./data.js";
 import { renderInfo } from "./renderInfo.js";
 import { changeActive, firstTabActive } from "./changeActive.js";
 
@@ -16,11 +17,10 @@ navLis.forEach((navLi) => {
     renderInfo(planet);
     firstTabActive(planet);
     changeActive(planet);
-    navList.classList.add("hidden");
+    navList.classList.toggle("visible");
   });
 });
 
 hgIcon.addEventListener("click", function () {
-  navList.classList.toggle("hidden");
-  console.log("Clicked");
+  navList.classList.toggle("visible");
 });
