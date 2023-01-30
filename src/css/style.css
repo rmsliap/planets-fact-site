@@ -57,10 +57,11 @@ ul {
   letter-spacing: 0.1rem;
   display: flex;
   gap: 3rem;
+  font-family: var(--secondary-font);
 }
 
 .nav-list li {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   cursor: pointer;
   display: flex;
   align-items: center;
